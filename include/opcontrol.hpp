@@ -1,0 +1,34 @@
+#pragma once
+#include "main.h"
+int exp_curves(int joystickValue);
+void controllerControl();
+void intakeControl();
+void flapControl();
+// void blockerControl();
+void cataControl();
+// void laDiablaControl();
+void cataTask();
+void underBarrierControl();
+// void hangPistonControl();
+void hangControl();
+// void laDiablaControl();
+void bowlModeControl();
+void screenControl();
+void vertControl();
+void kickerControl();
+// void moveHangTo();
+// void hangFireControl();
+extern bool vertControlFlag;
+extern bool bowlModeFlag;
+extern bool laDiablaFlag;
+extern bool hangFireControlFlag;
+extern bool slipPulled;
+// extern bool hangPistonControlFlag;
+extern char intakeControlState;
+extern bool flapControlFlag;
+extern bool blockerFlag;
+extern bool cataControlFlag;
+extern int target;
+extern int error;
+extern int cur_pos; 
+extern bool hangFlag;
